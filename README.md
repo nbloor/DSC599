@@ -101,6 +101,6 @@ The author extends sincere gratitude to **Dr. Steven Fernandes** for his guidanc
 ---
 
 ## References
-1. *(Placeholder text for weather balloon data citation)*  
-2. *(Placeholder text for Launch Criteria citation)*  
-3. *(Placeholder text for cost-related citation)*  
+1. *(Choucair, C (2025), How Much Does It Cost to Launch a Rocket? [By Type and Size], SpaceInsider. https://spaceinsider.tech/2023/08/16/how-much-does-it-cost-to-launch-a-rocket/)*  
+2. *(Dalal, S. R., Fowlkes, E. B., & Hoadley, B. (1989). Risk Analysis of the Space Shuttle: Pre-Challenger Prediction of Failure. Journal of the American Statistical Association, 84(408), 945–957. https://doi.org/10.1080/01621459.1989.10478858)*  
+3. *(Kreitzberg, C. W. (1979), Observing, analyzing, and modeling mesoscale weather phenomena, Rev. Geophys., 17(7), 1852–1871, doi:10.1029/RG017i007p01852)*  
