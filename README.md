@@ -19,8 +19,8 @@ It includes:
 ---
 
 ## Demo Video
-Link to video:
-[![IMAGE ALT TEXT HERE](images/screenshot.png)](https://youtu.be/hj0XQzldXZI)
+
+[![Video demonstrating the Model](images/screenshot.png)](https://youtu.be/hj0XQzldXZI)
 
 
 ---
