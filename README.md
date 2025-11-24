@@ -37,6 +37,12 @@ The project also analyzes historical launches and creates an agentic AI system t
 ├── app.py                 # Gradio UI for mission selection + prediction
 ├── mission_predictor.py   # Agentic AI logic and prediction system
 ├── mission.csv            # Historical mission dataset for pattern analysis
+└── data
+      └── mission_launches.csv            # Primary data set for the agentic AI protion of the project
+      └── PTER_NEMCC_040824_.1729.xlsx    # Weather balloon data taken from site A
+      └── PTER_NEMCC_101423_.1452.xlsx    # Weather balloon data taken from site B
+      └── spaceMissions.csv               # Alternate Space launch fdata including various weather phenomena readings
+      └── Stratostar EclipseFlight.csv    # Weather balloon data taken from site C
 └── README.md              # Project documentation
 ```
 
@@ -53,7 +59,7 @@ The project also analyzes historical launches and creates an agentic AI system t
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<username>/agentic-ai-launch-forecasting.git
+git clone https://github.com/nbloor/DSC599
 cd agentic-ai-launch-forecasting
 ```
 
