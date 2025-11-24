@@ -87,7 +87,9 @@ pip install transformers
 pip install plotly
 ```
 
-### 4. Run the Gradio App
+## Usage Instructions
+
+### Run the Gradio App
 ```bash
 python app.py
 ```
@@ -96,6 +98,8 @@ Access the UI at:
 ```arduino
 http://localhost:7860
 ```
+!(images/outputScreenshot.png "Image of the UI")
+
 What the UI does
 - Loads mission.csv
 - Allows selecting a mission from a dropdown
