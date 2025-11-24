@@ -98,7 +98,7 @@ Access the UI at:
 ```arduino
 http://localhost:7860
 ```
-!(images/outputScreenshot.png "Image of the UI")
+![Image of the User Interface of the Gradio application](images/outputScreenshot.png "Image of the UI")
 
 What the UI does
 - Loads mission.csv
