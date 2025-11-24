@@ -44,6 +44,7 @@ The project also analyzes historical launches and creates an agentic AI system t
       └── spaceMissions.csv               # Alternate Space launch fdata including various weather phenomena readings
       └── Stratostar EclipseFlight.csv    # Weather balloon data taken from site C
 └── README.md              # Project documentation
+└── requirements.txt       # List of required Python packages for execution
 ```
 
 ---
