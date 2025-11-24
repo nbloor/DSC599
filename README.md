@@ -108,7 +108,7 @@ http://localhost:7860
 ```
 ![Image of the User Interface of the Gradio application](images/outputScreenshot.png "Image of the UI")
 
-What the UI does
+#### What the UI does
 - Loads mission.csv
 - Allows selecting a mission from a dropdown
 - Displays:
