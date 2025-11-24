@@ -20,7 +20,9 @@ It includes:
 
 ## Demo Video
 Link to video:
-https://youtu.be/hj0XQzldXZI
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/hj0XQzldXZI)
+
+
 ---
 
 ## Features
