@@ -6,8 +6,9 @@ A neural network–based predictive framework for improving the safety and relia
 
 ## Overview
 
-This project investigates the use of **agentic AI systems** and **neural network architectures** to predict launch-critical environmental constraints.  
+This project investigates the use of **agentic AI systems** and **neural network architectures** to analyze and predict launch-critical environmental constraints.  
 By fusing multi-source meteorological data — including radiosonde soundings, radar, satellite imagery, and surface observations — the system produces **probabilistic, high-resolution forecasts** that enhance decision-making under launch commit criteria (LCCs).
+The project also analyzes historical launches and creates an agentic AI system that predicts whether a launch would be a success or a failure.
 
 ---
 
