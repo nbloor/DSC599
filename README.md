@@ -10,6 +10,12 @@ This project investigates the use of **agentic AI systems** and **neural network
 By fusing multi-source meteorological data — including radiosonde soundings, radar, satellite imagery, and surface observations — the system produces **probabilistic, high-resolution forecasts** that enhance decision-making under launch commit criteria (LCCs).
 The project also analyzes historical launches and creates an agentic AI system that predicts whether a launch would be a success or a failure.
 
+It includes:
+- A Mission Analysis Agent (MissionAnalysisAgent)
+- A Gradio UI (app.py) for interactive prediction
+- A historical launch dataset (mission.csv)
+- Several meteorological datasets for future model development
+
 ---
 
 ## Features
@@ -37,7 +43,7 @@ The project also analyzes historical launches and creates an agentic AI system t
 ├── app.py                 # Gradio UI for mission selection + prediction
 ├── mission_predictor.py   # Agentic AI logic and prediction system
 ├── mission.csv            # Historical mission dataset for pattern analysis
-└── data
+└── data/
       └── mission_launches.csv            # Primary data set for the agentic AI protion of the project
       └── PTER_NEMCC_040824_.1729.xlsx    # Weather balloon data taken from site A
       └── PTER_NEMCC_101423_.1452.xlsx    # Weather balloon data taken from site B
@@ -49,12 +55,13 @@ The project also analyzes historical launches and creates an agentic AI system t
 
 ---
 
-## Quick Start
+## Quick Start (Installation Instructions)
 
 ### Prerequisites
 
 - **Python 3.9+**
 - GPU-enabled environment recommended
+- HuggingFace API access (for Llama 3.2 InferenceClient)
 - (Future) Framework support: PyTorch or TensorFlow
 
 ### 1. Clone Repository
@@ -73,34 +80,56 @@ venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
-Once the model framework has been selected, the dependencies will be finalized.
+```bash
+pip install gradio
+pip install scikit-learn
+pip install transformers
+pip install plotly
+```
 
-### 4. Run Data Preprocessing
-Once the preprocessing Python has been completed, it will be updated here. The preprocessing is currently a work in progress.
-The file will be named preprocess_data.py
+### 4. Run the Gradio App
+```bash
+python app.py
+```
 
-### 5. Train Model
-Once the training code is finalized, it will be updated here.
-The file will be named train_model.py
+Access the UI at:
+```arduino
+http://localhost:7860
+```
+What the UI does
+- Loads mission.csv
+- Allows selecting a mission from a dropdown
+- Displays:
+  - Mission Parameters
+  - Predicted Status (Success/failure)
+  - Actual Status (from dataset)
+  - Confidence and risk explanation
 
-### 6. Generate Forecasts
-Once the final code is done, it will be placed here. 
-The file will be named predict.py
 
-## Preprocessing Steps
-
+## Preprocessing Steps (Planned)
+A future module (preprocess_data.py) will:
 1. Spatially align and normalize meteorological inputs
 2. Extract derived features (shear magnitudes, ckoud-top temperatures)
 3. Label training samples based on launch constreaint thresholds
 4. Split data into train/validate/tes
 
-## Results and Discussion
-This will be updated once results have been identified. This is currently a work in progress.
+## Results and Discussion (Work in Progress)
+The following will be aded after experimentation:
+- Accuracy of mission success prediction
+- Error analyssi by:
+   - Weather domain
+   - Company
+   - Vehicle type
+- Comparison against heuristic baselines
+- Confusion matrix and classification report
 
 ## Computing Resources
 Environment: Python code created in Colab
 Hardware: Recommended using a GPU runtime due to vast amount of data
 Reproducibility: GitHub version history and use of random-seed control
+   - GitHub versioning
+   - Fixed random seeds
+   - Documented preprocessing pipeline
 
 ## Acknowledgements
 This work is supported by NASA Nebrasks Space Grant Fellowship. Special thanks to Dr. Steven Fernandes for guidance in AI model design and Dr. Amelia Tangeman for operational insights and data coordination
