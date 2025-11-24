@@ -31,6 +31,16 @@ By fusing multi-source meteorological data — including radiosonde soundings, r
 
 ---
 
+## Project Structure
+``` bash
+├── app.py                 # Gradio UI for mission selection + prediction
+├── mission_predictor.py   # Agentic AI logic and prediction system
+├── mission.csv            # (Optional) Historical mission dataset for pattern analysis
+└── README.md              # Project documentation
+```
+
+---
+
 ## Quick Start
 
 ### Prerequisites
