@@ -44,6 +44,7 @@ It includes:
 
 ## Project Structure
 ``` bash
+src
 ├── app.py                 # Gradio UI for mission selection + prediction
 ├── mission_predictor.py   # Agentic AI logic and prediction system
 ├── mission.csv            # Historical mission dataset for pattern analysis
