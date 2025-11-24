@@ -35,7 +35,7 @@ By fusing multi-source meteorological data — including radiosonde soundings, r
 ``` bash
 ├── app.py                 # Gradio UI for mission selection + prediction
 ├── mission_predictor.py   # Agentic AI logic and prediction system
-├── mission.csv            # (Optional) Historical mission dataset for pattern analysis
+├── mission.csv            # Historical mission dataset for pattern analysis
 └── README.md              # Project documentation
 ```
 
